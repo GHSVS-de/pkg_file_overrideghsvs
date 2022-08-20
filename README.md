@@ -5,5 +5,7 @@ It only installs/replaces overrides on installation of this Joomla package but d
 
 Very harsh installation. Can kill you're site.
 
+Overrides can be seen here: https://github.com/GHSVS-de/pkg_file_overrideghsvs/tree/main/dist/overrideghsvs
+
 - Prepare/adapt `./package.json`.
 - `cd /mnt/z/git-kram/pkg_file_overrideghsvs`
