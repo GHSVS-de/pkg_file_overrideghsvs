@@ -20,7 +20,7 @@ $displayData = [
     'textPrefix' => 'COM_JOOMLAUPDATE_REINSTALL',
     'content'    => Text::sprintf($this->langKey, $this->updateSourceKey),
     'formURL'    => 'index.php?option=com_joomlaupdate&view=joomlaupdate',
-    'helpURL'    => 'https://docs.joomla.org/Special:MyLanguage/Updating_from_an_existing_version',
+    'helpURL'    => '',
     'icon'       => 'icon-loop joomlaupdate',
     'createURL'  => '#'
 ];
