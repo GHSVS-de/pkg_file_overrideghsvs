@@ -1,0 +1,81 @@
+{
+	"name": "pkg_overrideghsvs",
+	"nameReal": "pkg_file_overrideghsvs",
+	"filename": "overrideghsvs",
+	"version": "2022.08.20",
+	"versionCompare": "2022.08.20",
+	"update": {
+		"type": "package",
+		"folder": "",
+		"client": "site",
+		"tag": "stable",
+		"method": "",
+		"targetplatform": [
+			"4.*"
+		],
+		"namespace": "",
+		"elementComment": "Special for packages. If set overrides element=filename",
+		"element": "pkg_overrideghsvs",
+		"updateFilePrefixComment": "Abweichender Dateiname auf Upadate-Repo? Wenn nicht gesetzt wird name verwendet.",
+		"updateFilePrefix": "pkg_file_overrideghsvs",
+		"pkgIdComment": "Set in packageOverride.json! The id element in <file ..> tag of each child(!) package. The id= MUST be set to the value of the element column in the #__extensions table.",
+		"pkgId": ""
+	},
+	"releaseTxt": {
+		"title": "Joomla package/file OverrideGhsvs",
+		"requires": [],
+		"uses": [
+		],
+		"language": []
+	},
+	"changelog": {
+		"projecturl": "https://github.com/GHSVS-de/pkg_file_overrideghsvs",
+		"infosDE": "",
+		"infosEN": "https://github.com/GHSVS-de/pkg_file_overrideghsvs#readme",
+		"docsDE": "",
+		"docsEN": "",
+		"lastTests": [
+			"PHP 8.0",
+			"PHP 8.1",
+			"Joomla 4.1",
+			"Joomla 4.2",
+			"Joomla 4.3"
+		]
+	},
+	"minimumPhp": "7.4.0",
+	"maximumPhp": "8.99999.99999",
+	"minimumJoomla": "4.0.0",
+	"maximumJoomla": "4.9999.9999",
+	"allowDowngrades": "1",
+	"creationDate": "2022-08-22",
+	"licenseLong": "GNU General Public License version 3 or later; see LICENSE.txt.",
+	"copyright": "(C) 2022, G@HService Berlin Neukölln, Volkmar Volli Schlothauer.",
+	"author": {
+		"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+		"url": "https://ghsvs.de"
+	},
+	"contributors": [
+		{
+			"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+			"url": "https://ghsvs.de"
+		}
+	],
+	"bugs": "https://github.com/GHSVS-de/pkg_file_overrideghsvs/issues",
+	"homepage": "https://github.com/GHSVS-de/pkg_file_overrideghsvs#readme",
+	"keywords": [],
+	"private": false,
+	"description": "Joomla package/file. A collection of overrides for Joomla 4 that I often use. Not more.",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GHSVS-de/pkg_file_overrideghsvs.git"
+	},
+	"scripts": {
+		"build": "node build.js",
+    "updateCheck": "npm outdated",
+    "update": "npm update --save-dev"
+	},
+	"dependencies": {},
+	"devDependencies": {},
+	"browserslist": []
+}

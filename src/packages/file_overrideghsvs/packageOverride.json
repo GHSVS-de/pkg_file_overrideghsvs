@@ -1,0 +1,8 @@
+{
+	"name": "file_overrideghsvs",
+	"update": {
+		"type": "file",
+		"pkgId": "overrideghsvs"
+	},
+	"description": "Joomla file extension. Part of Joomla package \"pkg_overrideghsvs\". Contains overrides I often use. Not more."
+}

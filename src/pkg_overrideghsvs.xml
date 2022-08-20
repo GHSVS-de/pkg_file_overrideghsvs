@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="{{type}}" method="{{method}}">
+	<name>{{nameUpper}}</name>
+	<packagename>{{filename}}</packagename>
+	<author>{{authorName}}</author>
+	<creationDate>{{creationDate}}</creationDate>
+	<copyright>{{copyright}}</copyright>
+	<license>{{licenseLong}}</license>
+	<authorUrl>{{authorUrl}}</authorUrl>
+	<version>{{version}}</version>
+	<description>{{description}}</description>
+
+	<updateservers><server type="extension" priority="1" name="{{nameUpper}}">{{xmlserver}}/{{updateFilePrefix}}-update.xml</server></updateservers>
+
+	<changelogurl>{{xmlserver}}/{{updateFilePrefix}}-changelog.xml</changelogurl>
+
+	<infourl>{{infourl}}?file={{updateFilePrefix}}</infourl>
+
+	<minimumPhp>{{minimumPhp}}</minimumPhp>
+	<maximumPhp>{{maximumPhp}}</maximumPhp>
+	<minimumJoomla>{{minimumJoomla}}</minimumJoomla>
+	<maximumJoomla>{{maximumJoomla}}</maximumJoomla>
+	<allowDowngrades>{{allowDowngrades}}</allowDowngrades>
+
+	<scriptfile>installerScript.php</scriptfile>
+
+	<files folder="packages">
+		{{thisPackages}}
+	</files>
+
+	<files>
+		<filename>installerScript.php</filename>
+		<filename>LICENSE.txt</filename>
+	</files>
+
+	<blockChildUninstall>true</blockChildUninstall>
+ </extension>
