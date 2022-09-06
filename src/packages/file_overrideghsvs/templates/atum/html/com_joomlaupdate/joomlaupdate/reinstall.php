@@ -1,4 +1,7 @@
 <?php
+/*
+Part of pkg_file_overrideghsvs.
+*/
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Factory;
