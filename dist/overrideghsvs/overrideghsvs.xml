@@ -6,7 +6,7 @@
 	<copyright>(C) 2022, G@HService Berlin Neukölln, Volkmar Volli Schlothauer.</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
 	<authorUrl>https://ghsvs.de</authorUrl>
-	<version>2022.08.20</version>
+	<version>2022.10.10</version>
 	<description>Joomla file extension. Part of Joomla package "pkg_overrideghsvs". Contains overrides I often use. Not more.</description>
 
 	<fileset>

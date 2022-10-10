@@ -2,7 +2,7 @@
 	"name": "pkg_overrideghsvs",
 	"nameReal": "pkg_file_overrideghsvs",
 	"filename": "overrideghsvs",
-	"version": "2022.08.20",
+	"version": "2022.10.10",
 	"versionCompare": "2022.08.20",
 	"update": {
 		"type": "package",
@@ -37,7 +37,6 @@
 		"lastTests": [
 			"PHP 8.0",
 			"PHP 8.1",
-			"Joomla 4.1",
 			"Joomla 4.2",
 			"Joomla 4.3"
 		]
